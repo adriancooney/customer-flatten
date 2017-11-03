@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`customers readCustomersWithinRadius should read customers from customer log file and return customers within radius 1`] = `
+Array [
+  Object {
+    "latitude": 53.2451022,
+    "longitude": -6.238335,
+    "name": "Ian Kehoe",
+    "user_id": 4,
+  },
+]
+`;

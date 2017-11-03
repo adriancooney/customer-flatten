@@ -1,0 +1,44 @@
+{
+    "author": "Adrian Cooney <cooney.adrian@gmail.com>",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint src test"
+    },
+    "devDependencies": {
+        "eslint": "^4.10.0",
+        "jest": "^21.2.1"
+    },
+    "eslintConfig": {
+        "parserOptions": {
+            "ecmaVersion": 8
+        },
+        "env": {
+            "node": true,
+            "commonjs": true,
+            "es6": true,
+            "jest": true
+        },
+        "extends": "eslint:recommended",
+        "rules": {
+            "indent": [
+                "error",
+                4
+            ],
+            "linebreak-style": [
+                "error",
+                "unix"
+            ],
+            "quotes": [
+                "error",
+                "double"
+            ],
+            "semi": [
+                "error",
+                "always"
+            ]
+        }
+    },
+    "jest": {
+        "testMatch": ["**/test/**/*.js"]
+    }
+}
